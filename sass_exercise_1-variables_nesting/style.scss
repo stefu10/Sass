@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$color-primary:rgb(255, 45, 45);
+$color-secondary: blue;
+$color-tertiary: green;
+
+.container {
+    border: solid 1px $color-primary;
+    margin: 10px 10px;
+    
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: $color-tertiary;
+    text-decoration: underline $color-secondary;
+}
+.content {
+    display: flex;
+    border: solid 1px $color-tertiary;
+    margin: 10px;
+    
+    
+}
+.content p {
+    border-right: solid 2px $color-tertiary;
+    padding: 40px;
+}
+
+#red {
+    color: $color-primary;
+}
+
+#blue {
+    color: $color-secondary;
+}
